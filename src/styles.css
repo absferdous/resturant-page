@@ -1,0 +1,16 @@
+#content {
+  /* margin-top: 4rem; */
+  box-sizing: border-box;
+  margin-inline: auto;
+  width: min(100%-2rem, 1200px);
+  background-image: url("./images/bg.jpg");
+}
+
+#content img {
+  width: 100%;
+  height: clamp(300px, 60vh, 800px);
+  overflow: hidden;
+  border-radius: 12px;
+  object-position: center;
+  display: block;
+}
